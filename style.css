@@ -1,0 +1,130 @@
+/* Default Styles
+-------------------------------------------------------------------------------------*/
+body      {margin:0; padding: 80px 0; font-family: 'Lato', sans-serif; font:16px/1.6; background:#262626; color:#EBEBEB;}
+
+/* Text Styles */
+h1, h2, h3{margin:0;}
+h1{font-family: 'Abril Fatface', cursive; font-size:5.0em; font-weight: 300; line-height: 80px;}
+h2{font-family: 'Abril Fatface', cursive; font-size:3.0em; font-weight: 300; line-height: 80px;}
+h3{font-size:1.2em;}
+p{font-size: 1.2em; font-weight: 300; line-height: 30px;}
+
+#description p{
+  width: 60%;
+  margin:auto;
+  padding-bottom: 20px;
+}
+
+#description a{
+margin-right: 20px;
+}
+
+#job_title{
+  font-size:1.2em;
+  font-weight:300;
+  text-transform: uppercase;
+  color: #e2c758;
+  margin-top: 15px;
+}
+/* Link Styles */
+a        {color:#e2c758; text-decoration:none; font-size:1.0; text-transform: uppercase;}
+a:hover        {opacity: 0.6;}
+
+/* Lists */
+ol            {list-style-type:none;}
+ul            {list-style-type:none; margin: 0; padding: 0;}
+li           {display: inline-block;}
+
+.projet img{
+border-radius: 10px;
+margin: 0 40px 0 0;
+width: 200px;
+transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+#intro img{
+border-radius: 100px;
+margin: 0 40px 0 0;
+width: 180px;
+height: 180px;
+}
+
+#intro{
+max-width: 600px;
+margin: auto;
+}
+
+/*#description{
+  margin: 80px 0;
+  padding: 80px 80px;
+
+}*/
+
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.padding_bloc {
+  padding: 70px 0PX;
+ }
+
+ .border-top{
+  border-top: 1px dashed #636363;
+ }
+
+ .left{
+float:left;
+ }
+
+.align_center{
+  text-align: center;
+}
+
+.projet{
+margin-top: 50px;
+}
+
+#projet_1, #projet_2{
+  margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#top, #bottom, #left, #right {
+  background: #fff;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 50px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 50px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
